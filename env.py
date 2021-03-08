@@ -16,3 +16,7 @@ config['IOS_PASSWORD'] = "C1sco12345"
 config['IOS_SSH_PORT'] = 8181
 config['IOS_NETCONF_PORT'] = 10000
 config['IOS_RESTCONF_PORT'] = 9443
+
+# Stage 1 org and network
+config["stage1-org"] = "DevNet Sandbox"
+config["stage1-network"] = "DevNet Sandbox ALWAYS ON"

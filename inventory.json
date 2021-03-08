@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Michael's AP",
+    "mac": "e0:55:3d:17:d4:23",
+    "serial": "Q2QN-9J8L-SLPD"
+  },
+  {
+    "name": "Testing-Devnet",
+    "mac": "88:15:44:60:21:10",
+    "serial": "Q2MD-BHHS-5FDL"
+  },
+  {
+    "mac": "88:15:44:df:f3:af",
+    "serial": "Q2HP-F5K5-R88R"
+  }
+]
