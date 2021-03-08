@@ -1,0 +1,30 @@
+[
+  {
+    "category": "DNA-Center",
+    "name": "asr1001-x.abc.inc",
+    "type": "Routers",
+    "mac": "00:c8:8b:80:bb:00",
+    "serial": "FXS1932Q1SE"
+  },
+  {
+    "category": "DNA-Center",
+    "name": "cat_9k_1",
+    "type": "Switches and Hubs",
+    "mac": "f8:7b:20:67:62:80",
+    "serial": "FCW2136L0AK"
+  },
+  {
+    "category": "DNA-Center",
+    "name": "cat_9k_2",
+    "type": "Switches and Hubs",
+    "mac": "f8:7b:20:71:4d:80",
+    "serial": "FCW2140L039"
+  },
+  {
+    "category": "DNA-Center",
+    "name": "cs3850.abc.inc",
+    "type": "Switches and Hubs",
+    "mac": "cc:d8:c1:15:d2:80",
+    "serial": "FOC1833X0AR"
+  }
+]

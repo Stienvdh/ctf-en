@@ -35,13 +35,13 @@ def get_devices(network_id):
         return resp.json()
     return {}
 
-if __name__ == "__main__":
+def get_inventory():
     ORG_ID = get_org_id()
     NET_ID = get_network_id(ORG_ID)
 
     inventory = []
     for device in get_devices(NET_ID):
-        inv_entry = {}
+        inv_entry = {"category" : "Meraki"}
         if "name" in device:
             inv_entry["name"] = device["name"]
         if "type" in device:
@@ -51,8 +51,10 @@ if __name__ == "__main__":
         if "serial" in device:
             inv_entry["serial"] = device["serial"]
         inventory += [inv_entry]
-    
-    with open("inventory.json", "w") as f:
-        f.write(json.dumps(inventory, indent=2))
+    return inventory
+
+if __name__ == "__main__":
+    with open("inventoryMeraki.json", "w") as f:
+        f.write(json.dumps(get_inventory(), indent=2))
         f.close()
     
